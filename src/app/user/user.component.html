@@ -1,0 +1,15 @@
+<p class="display-5">
+  Title from Parent : {{ title }}
+</p>
+
+<p>
+  Data Projection
+  <ng-content></ng-content>
+</p>
+
+
+<p>
+  <button class="btn btn-primary" (click)="onEmit()">
+    Trigger Event
+  </button>
+</p>
